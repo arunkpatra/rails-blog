@@ -6,5 +6,8 @@ Rails.application.routes.draw do
   # get "/articles", to: "articles#index"
   # get "/articles/:id", to: "articles#show"
 
+  get "/persons/:id", to: "persons#show"
+  get "/posts/:id", to: "posts#show"
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
